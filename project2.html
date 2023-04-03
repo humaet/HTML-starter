@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+<title>Technical Documentation</title>
+<style>
+    a:link {
+        color: blue;
+        text-decoration: none;
+    }
+    body {
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    nav {
+        float: left;
+        width: 24%;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    article {
+        float: left;
+    }
+    section::after {
+        content: "";
+        display:table;
+        clear:both;
+    }
+    @media (max-width:600px) {
+        nav, article {
+            width: 100%;
+            height: auto;
+        }
+    }
+</style>
+    </HEAD>
+    <body>
+        <section>
+            <nav>
+             <h1 style="font-size:25px;">Technical Documentation</h1>
+                <ul>
+                    <li><a href="#I"> Introduction</a></li>
+                    <li><a href="#WUSAK"> What you should already know</a></li>
+                    <li><a href="#AT"> About the topic</a></li>
+                    <li><a href="#T1"> Topic 1</a></li>
+                    <li><a href="#T2">Topic 2</a></li>
+                </ul>
+            </nav>
+            <article>
+             <h1 style="background-color:black; color: white; font-size: 25px;" id="I">Introduction</h1>
+             <p>some content about the main topic, for example Java documentation introduction the language</p>
+             <h1 style="background-color:black;color: white; font-size: 25px;" id="WUSAK">What you should alredy know</h1>
+             <p>Background information before getting into the topic:</p>
+             <ul>
+                <li>Some list content</li>
+                <li>Prerequisites</li>
+                <li>Working and assumptions</li>
+             </ul>
+             <p>Any other content to be covered before learning this topic.
+             <h1 style="background-color: black;color:white; font-size: 25px;" id="AT">About topic</h1>
+             <p>More lines about the topic, For example, how he basic functionality works, features etc...</P>
+                    <!--remember to check the word dicte through-->
+             <p>Technical documentation should be through and to the point.</p>
+             <p>Write about features, comparisons with other languages etc.</P>
+             <h1 style="background-color: black;color:white; font-size: 25px;" id="T1">Topic 1</h1>
+             <P>Getting started with the actual documentation content.</p>
+             <h1 style="background-color: black;color:white; font-size: 25px;" id="T2">Topic 2</h1>
+             <p>Another topic about the main topic, for example, if the topic is Java, this could be variables or data types in Java.
+             </article>
+        </section>
+        </body>
+</HTML>
+        
+
